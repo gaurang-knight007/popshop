@@ -101,15 +101,15 @@ const Home = () => {
         <h2>How It Works</h2>
         <div className="about11-content1">
           <div className="flash-card1">
-            <img src="https://via.placeholder.com/150" alt="GPS Tracking" />
+            <img src="https://res.cloudinary.com/dfy0pzoht/image/upload/v1752427247/gps_jfxifi.png" alt="GPS Tracking" />
             <div className="flash-text1">Live GPS tracking to locate shops near you</div>
           </div>
           <div className="flash-card1">
-            <img src="https://via.placeholder.com/150" alt="Shop Notification" />
+            <img src="https://res.cloudinary.com/dfy0pzoht/image/upload/v1752427246/shntif_ghbjtq.png" alt="Shop Notification" />
             <div className="flash-text1">Instant notifications to shopkeepers when an item is searched</div>
           </div>
           <div className="flash-card1">
-            <img src="https://via.placeholder.com/150" alt="Rare Items" />
+            <img src="https://res.cloudinary.com/dfy0pzoht/image/upload/v1752427246/rrit_oarqzf.png" alt="Rare Items" />
             <div className="flash-text1">Focus on rare and hard-to-find item availability</div>
           </div>
         </div>
