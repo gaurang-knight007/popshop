@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/credential" element={<Credential />} />
         <Route path="/buyer-dashboard" element={<ProtectedRoute allowedRoles={['buyer']}><BuyerDashboard /></ProtectedRoute>} />
         <Route path="/shopkeeper-dashboard" element={<ProtectedRoute allowedRoles={['shopkeeper']}><ShopkeeperDashboard /></ProtectedRoute>} />
-        <Route path="/admin-dashboard" element={<ProtectedRoute allowedRoles={['admin']}>< /></ProtectedRoute>}/>
+        <Route path="/admin-dashboard" element={<ProtectedRoute allowedRoles={['admin']}><AdminDashboard /></ProtectedRoute>}/>
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
