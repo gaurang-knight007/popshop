@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './AdminDashboard.css';
-import avatar from './assets/avatar.png';
-import userDistChart from './assets/user_distribution_pie.png';
-import requestLineChart from './assets/weekly_requests_line.png';
 
 const AdminDashboard = () => {
   const [users, setUsers] = useState([]);
@@ -25,7 +22,7 @@ const AdminDashboard = () => {
   return (
     <div className="admin-dashboard">
       <div className="admin-header">
-        <img src={avatar} alt="Admin Avatar" className="admin-avatar" />
+        <img src="https://res.cloudinary.com/dfy0pzoht/image/upload/v1752672723/avatar_xfmiwb.png" alt="Admin Avatar" className="admin-avatar" />
         <div className="admin-info">
           <h2>Welcome, Admin</h2>
           <p>Manage users, requests, and analytics</p>
@@ -73,12 +70,12 @@ const AdminDashboard = () => {
 
         <div className="admin-card analytics">
           <h3>User Distribution</h3>
-          <img src={userDistChart} alt="User Distribution" />
+          <img src="https://res.cloudinary.com/dfy0pzoht/image/upload/v1752672723/user_distribution_pie_ug7bmf.png" alt="User Distribution" />
         </div>
 
         <div className="admin-card analytics">
           <h3>Weekly Request Activity</h3>
-          <img src={requestLineChart} alt="Request Activity" />
+          <img src="https://res.cloudinary.com/dfy0pzoht/image/upload/v1752672722/weekly_requests_line_ippudw.png" alt="Request Activity" />
         </div>
       </div>
     </div>
